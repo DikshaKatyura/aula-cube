@@ -1,0 +1,24 @@
+.taskItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-bottom: 1rem !important;
+    padding: 0.75rem;
+    width: 60%;
+    max-width: 100%;
+    margin: auto;
+    cursor: pointer;
+}
+
+.mark{
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+.taskItem p{
+    margin: 0;
+}
+.taskItem table{
+    border: 0.7px solid #ccc;
+    border-radius: 15px;
+}

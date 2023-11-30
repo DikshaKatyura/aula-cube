@@ -1,18 +1,18 @@
-.details{
-    display: flex;
-    align-items: center;
-    margin-bottom: 1rem !important;
-    margin-top: 1rem !important;
-    padding: 0.75rem;
-    row-gap: 1rem;
-    width: 40%;
-    max-width: 100%;
-    margin: auto;
-    cursor: pointer;
+.details {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem !important;
+  margin-top: 1rem !important;
+  padding: 0.75rem;
+  row-gap: 1rem;
+  width: 40%;
+  max-width: 100%;
+  margin: auto;
+  cursor: pointer;
 }
 
-.btns-group{
-    display: flex;
-    column-gap: 1rem;
-    margin-top: 2rem;
+.btns-group {
+  display: flex;
+  column-gap: 1rem;
+  margin-top: 2rem;
 }

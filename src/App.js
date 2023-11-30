@@ -30,9 +30,8 @@ const routes = createBrowserRouter([
     path: "/",
     element: <Root />,
     children: [
-      { path: ":id", element: <TaskDetails />,children:[
-        { path: "edit", element: <EditTask /> },
-      ] },
+      { path: ":id", element: <TaskDetails /> },
+      { path: ":id/edit", element: <EditTask /> },
       { index: true, element: <TaskList /> },
       { path: "newtask", element: <NewTask /> },
     ],
